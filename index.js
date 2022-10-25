@@ -14,3 +14,7 @@ app.get('/', (req, res) => {
 app.get('/courses', (req, res) => {
     res.send(courses);
 })
+
+app.listen(port, () => {
+    console.log(`Skilify HMI running on port, ${port}`)
+})
